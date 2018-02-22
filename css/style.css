@@ -1,0 +1,60 @@
+html, body {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;}
+
+body {background: white;
+    border: 1px solid white;
+  	margin: 75px 60px 75px 60px;
+  	box-shadow: 0 0 25px gray;
+  	font: 300 18px/1.8 'Lato', sans-serif;
+  	word-spacing: 3px;
+  	color: #A2A2A2;
+ 	 padding: 60px 40px;
+  	}
+
+	article { margin: 100px 75px 100px 75px;}
+
+	h1 {color: #171717;
+			font-size: 42px;
+			font-family: serif;
+			}
+
+	p {
+			font-weight: 300;
+		}
+
+.first_l:first-letter {
+  font-family: 'Playfair Display', serif;
+  display: block;
+  margin: -0.5em 0.2em -0.3em 0;
+  float: left;
+  font-size: 4.5em;
+  color: black;
+}
+
+blockquote.squote:before {
+	content: '“';
+	font-family: Lato, sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	margin-right: 5px;
+}
+
+blockquote {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-left: -1px;}
+
+button {
+  color: #EAA258;
+  border: 2px solid #EAA258;
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  width: 260px;
+  height: 70px;
+  background: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
